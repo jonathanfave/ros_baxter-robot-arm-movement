@@ -1,0 +1,20 @@
+/usr/bin/ld: CMakeFiles/tf2_broadcaster.dir/src/tf2_broadcaster.cpp.o: in function `main':
+tf2_broadcaster.cpp:(.text+0x85): undefined reference to `ros::init(int&, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int)'
+/usr/bin/ld: tf2_broadcaster.cpp:(.text+0xb5): undefined reference to `ros::Rate::Rate(double)'
+/usr/bin/ld: tf2_broadcaster.cpp:(.text+0xba): undefined reference to `ros::ok()'
+/usr/bin/ld: tf2_broadcaster.cpp:(.text+0xc3): undefined reference to `ros::spinOnce()'
+/usr/bin/ld: tf2_broadcaster.cpp:(.text+0xcf): undefined reference to `ros::Rate::sleep()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/tf2_broadcaster.dir/build.make:84: /user/eleves/jfave2021/ros/devel/.private/puppet_hand/lib/puppet_hand/tf2_broadcaster] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1269: CMakeFiles/tf2_broadcaster.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/puppet_hand_node.dir/src/puppet_hand_node.cpp.o: in function `main':
+puppet_hand_node.cpp:(.text+0x85): undefined reference to `ros::init(int&, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int)'
+/usr/bin/ld: puppet_hand_node.cpp:(.text+0xb5): undefined reference to `ros::Rate::Rate(double)'
+/usr/bin/ld: puppet_hand_node.cpp:(.text+0xba): undefined reference to `ros::ok()'
+/usr/bin/ld: puppet_hand_node.cpp:(.text+0xc3): undefined reference to `ros::spinOnce()'
+/usr/bin/ld: puppet_hand_node.cpp:(.text+0xcf): undefined reference to `ros::Rate::sleep()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/puppet_hand_node.dir/build.make:84: /user/eleves/jfave2021/ros/devel/.private/puppet_hand/lib/puppet_hand/puppet_hand_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1583: CMakeFiles/puppet_hand_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

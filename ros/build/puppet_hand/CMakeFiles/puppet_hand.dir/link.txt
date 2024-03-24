@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libpuppet_hand.so -o /user/eleves/jfave2021/ros/devel/.private/puppet_hand/lib/libpuppet_hand.so CMakeFiles/puppet_hand.dir/src/puppet_hand_node.cpp.o 

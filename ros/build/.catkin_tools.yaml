@@ -1,0 +1,6 @@
+devel_space: /user/eleves/jfave2021/ros/devel
+install: false
+install_space: /user/eleves/jfave2021/ros/install
+profile: default
+source_space: /user/eleves/jfave2021/ros/src
+workspace: /user/eleves/jfave2021/ros
